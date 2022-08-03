@@ -147,9 +147,15 @@ footer p{
 /* Mobile screen responsivenes */
 @media screen and (max-width:768px) {
  .box{
-  width: 400px;
+  width: 350px;
  }
  .submit{
   padding-left: 80px;
+ }
+ .footersection{
+    padding: 5px 5px;
+ }
+ .down{
+    padding-left: 10px;
  }
 }
