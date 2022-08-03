@@ -12,6 +12,9 @@
  padding-left: 20px;
  padding-right: 15px;
 }
+.mobile{
+    display: none;
+}
 header{
  display: flex;
  flex-direction: row;
@@ -146,11 +149,38 @@ footer p{
 
 /* Mobile screen responsivenes */
 @media screen and (max-width:768px) {
+header{
+    display: none;
+}
+.mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0px 15px;
+}
+.submobile1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.submobile1 a{
+    text-decoration: none;
+    color:rgba(0,0,0,.87)
+}
+.submobile1 a:hover{
+    text-decoration: underline;
+}
+.submobile2{
+    display: flex;
+    align-items: center;
+}
  .box{
   width: 350px;
  }
  .submit{
-  padding-left: 80px;
+  padding-left: 50px;
  }
  .footersection{
     padding: 5px 5px;
@@ -161,10 +191,10 @@ footer p{
  .down a{
     text-decoration: none;
     padding-left: 6px;
-    font-size: 10px;
+    font-size: 12px;
    }
    header{
-    padding: 0px 10px 0px 0px;
+    padding: 10px 10px 0px 0px;
    }
    .footersection a{
     color: #70757a;
