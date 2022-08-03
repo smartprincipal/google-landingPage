@@ -1,0 +1,155 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ /* box-sizing: border-box; */
+}
+.image1{
+ border-radius: 50%;
+}
+.hamburger{
+ width: 24px;
+ height: 24px;
+ padding-left: 20px;
+ padding-right: 15px;
+}
+header{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 20px 30px 0px 0px;
+ justify-content: flex-end;
+}
+ul{
+ display: flex;
+}
+ul li{
+ list-style-type: none;
+ padding-left: 15px;
+}
+ul a{
+ text-decoration: none;
+ color: rgba(0,0,0,.87);
+}
+ul a:hover{
+ text-decoration: underline;
+ color: blue;
+}
+.center{
+ display: flex;
+ flex-direction: column;
+ margin-top: 130px;
+ align-items: center;
+}
+.svg{
+ width: 20px;
+ height: 20px;
+}
+.voice{
+ width: 24px;
+ height: 24px;
+}
+.box{
+ width: 582px;
+ height: 44px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ border: 1px solid grey;
+ padding: 5px 8px 0 14px;
+ border-radius: 25px;
+ margin-top: 40px;
+ border: 1px solid #dfe1e5;
+}
+input[type="search"]{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 12px;
+ width: 500px;
+ height: 44px;
+ padding-bottom: 0px;
+ border: none;
+ outline: none;
+}
+.submit{
+ padding-top: 18px;
+ padding-left: 170px;
+}
+.button{
+ background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.down{
+ color: #4d5156;
+ line-height: 28px;
+}
+.down a{
+ text-decoration: none;
+ padding-left: 15px;
+ font-size: 14px;
+}
+.down a:hover{
+ text-decoration: underline;
+}
+footer{
+ background: #f2f2f2;
+ height: 143.4px;
+ margin-top: 130px;
+ color: #70757a;
+}
+footer p{
+ padding: 15px 30px;
+ border-bottom: 1px solid #dadce0;
+ font-size: 15px;
+}
+.carbon img{
+ margin-right: 6px;
+ height: 14px;
+}
+.carbon{
+ display: flex;
+ justify-content: center;
+ padding: 15px;
+}
+.carbon a{
+ text-decoration: none;
+ color: #70757a;
+ font-size: 14px;
+}
+.footersection{
+ display: flex;
+ flex-direction: row;
+ padding: 5px 20px 0px 20px;
+ justify-content: space-between;
+
+}
+.footersection a{
+ color: #70757a;
+ font-size: 14px;
+}
+.footersection a:hover{
+ color: #70757a;
+}
+
+
+/* Mobile screen responsivenes */
+@media screen and (max-width:768px) {
+ .box{
+  width: 400px;
+ }
+ .submit{
+  padding-left: 80px;
+ }
+}
