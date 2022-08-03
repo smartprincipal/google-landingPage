@@ -158,4 +158,12 @@ footer p{
  .down{
     padding-left: 10px;
  }
+ .down a{
+    text-decoration: none;
+    padding-left: 6px;
+    font-size: 8px;
+   }
+   header{
+    padding: 0px 10px 0px 0px;
+   }
 }
